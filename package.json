@@ -5,7 +5,10 @@
   "description": "image resizer",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "packager-win": "electron-packager . --platform=win32 --arch=x64 --icon=assets/icons/win/icon.ico --out=release-builds --overwrite --asar",
+    "packager-linux": "electron-packager . --platform=linux --arch=x64 --icon=assets/icons/png/icon.png --out=release-builds --overwrite --asar",
+    "packager-mac": "electron-packager . --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --out=release-builds --overwrite --asar"
   },
   "repository": {
     "type": "git",
@@ -22,8 +25,11 @@
   },
   "homepage": "https://github.com/Justtejas/image-resizer#readme",
   "dependencies": {
-    "electron": "^28.1.4",
     "resize-img": "^2.0.0",
     "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.1.3",
+    "electron": "^28.1.4"
   }
 }
