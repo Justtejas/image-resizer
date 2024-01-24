@@ -24,6 +24,7 @@ A lightweight desktop application to resize images for all operating systems.
 ## Features
 - Resize images to a custom size.
 - Resize images to a predefined size.
+- Supports bmp, jpg and png formats.
 
 ## Installation for development
 

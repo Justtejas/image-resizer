@@ -71,7 +71,7 @@ function checkWidthAndHeight(width, height) {
 
 // check file is image
 function checkImage(file) {
-  const acceptedTypes = ["image/jpeg", "image/png", "image/gif"];
+  const acceptedTypes = ["image/jpg", "image/png", "image/bpm"];
   return file && acceptedTypes.includes(file["type"]);
 }
 
