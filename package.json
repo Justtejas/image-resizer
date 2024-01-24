@@ -1,0 +1,28 @@
+{
+  "name": "image-resizer",
+  "version": "1.0.0",
+  "description": "image resizer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justtejas/image-resizer.git"
+  },
+  "keywords": [
+    "image",
+    "resizer"
+  ],
+  "author": "Tejas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Justtejas/image-resizer/issues"
+  },
+  "homepage": "https://github.com/Justtejas/image-resizer#readme",
+  "dependencies": {
+    "electron": "^28.1.4",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}
