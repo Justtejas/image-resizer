@@ -1,6 +1,7 @@
 {
   "name": "image-resizer",
   "version": "1.0.0",
+  "productName": "Image Resizer",
   "description": "image resizer",
   "main": "main.js",
   "scripts": {
